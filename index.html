@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+        #student-form{
+            margin: auto;
+            border: 1px solid red;
+            padding: 30px;
+            background: rgb(237, 235, 66);
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "color: blue; text-align: center;">Student Form</h1>
+    <table id="student-form">
+        <tr>
+            <td>
+                Enter Name : 
+            </td>
+            <td><input type="text"placeholder = "Type here"></td>
+        </tr>
+           
+        <tr>
+            <td>
+                Enter Password : 
+                </td>
+                <td>
+                <input type = "text" placeholder = "Type your password">
+                </td>
+        </tr>
+        
+        <tr>
+            <td>
+                Select DOB :
+            </td>
+            <td>
+                <input type = "date">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Select Gender :
+            </td>
+            <td>
+                <input type = "radio" name = "gender">Male <input type = "radio"name = "gender">Female
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                Select Course :
+            </td>
+            <td>
+                <select name = "course" id = "">
+                <option value = "Java">Java</option>
+                <option value = "Python">Python</option>
+                <option value = "C++">C++</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Address : 
+            </td>
+            <td>
+                <textarea name="" id="" cols="25" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td style = text-align:right;>
+                <input type="checkbox" name="" id="">
+            </td>
+            <td>
+                Click I Agree To Accept Terms and Conditions.
+            </td>
+        </tr>
+        <tr>
+          <td>
+
+          </td>
+          <td>
+            <input type="submit">
+            <input type = "reset">
+          </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
